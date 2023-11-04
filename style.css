@@ -300,10 +300,14 @@ tr{
     gap: 20px;
     overflow-x: scroll;
 }
+.finalcards{
+    flex-wrap: wrap;
+
+}
 
 @media screen and (max-width: 480px) {
     nav{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
    .heroimage{
     width: 400px;
@@ -314,7 +318,34 @@ tr{
         height: 70px;
         text-align: center;
     }
-        
+        .heroimage{
+            width: 450px;
+            height: 150px;
+        }
+        .finalcards{
+    flex-wrap: wrap;
+
+        }
+       .footer-r-2{
+        flex-direction: column;
+        text-align: justify;
+        text-align: justify;
+        width: 400px;
+        margin-left: 10px;
+    } 
+       
+       .footer-r-3{
+        margin-top: 110px;
+        text-align: justify;
+        width: 400px;
+        margin-left: 10px;
+       }
+       .all-footer{
+        flex-direction: column;
+        text-align: center;
+       }
+       .footer-r-1{
+        flex-direction: column;
+       }
     }
    
-}
